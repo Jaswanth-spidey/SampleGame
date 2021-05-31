@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Would You Rather ?</string>
+    <string name="is_it_you_are_not">Is it you are not?</string>
+    <string name="jhbfjhab">jhbfjhab</string>
+    <string name="todo">TODO</string>
+    <string name="rotad">Roated text</string>
+    <string name="hello_world">Hello World;</string>
+    <string name="que_up_one">8 a.m. classes every day</string>
+    <string name="per_up_one">57%</string>
+    <string name="que_up_two">Have a job you hated that made you rich</string>
+    <string name="per_up_two">23%</string>
+    <string name="que_down_one">8 p.m. classes every day?</string>
+    <string name="per_down_one">43%</string>
+    <string name="que_down_two">Have a job you loved that ensured you would always be poor</string>
+    <string name="per_down_two">77%</string>
+    <string name="_57">57%</string>
+    <string name="_48">43%</string>
+    <string name="que_up_three">Never be able to eat desserts again</string>
+    <string name="que_down_three">Never be able to sleep in again</string>
+    <string name="per_up_three">32%</string>
+    <string name="per_down_three">68%</string>
+    <string name="que_up_four">Never have a smartphone again</string>
+    <string name="que_down_four">Never have a laptop again</string>
+    <string name="per_up_four">20%</string>
+    <string name="per_down_four">80%</string>
+    <string name="que_up_five">Have tickets to every school football game</string>
+    <string name="que_down_five">Every school basketball game</string>
+    <string name="per_up_five">26%</string>
+    <string name="per_down_five">74%</string>
+    <string name="que_up_six">Be able to eat anywhere for free</string>
+    <string name="que_down_six">Be able to get any clothes from any store for free</string>
+    <string name="per_up_six">73%</string>
+    <string name="per_down_six">27%</string>
+    <string name="que_up_seven">Have the worst professor of all time once</string>
+    <string name="que_down_seven">Have just okay professors forever</string>
+    <string name="per_up_seven">72%</string>
+    <string name="per_down_seven">28%</string>
+    <string name="que_up_eight">Not be able to taste</string>
+    <string name="que_down_eight">Not be able to see colors</string>
+    <string name="per_up_eight">29%</string>
+    <string name="per_down_eight">71%</string>
+    <string name="que_up_nine">Have to sing everything you say (but say as much as you want)</string>
+    <string name="que_down_nine">Talk normally but only be allowed 100 words a day</string>
+    <string name="per_up_nine">66%</string>
+    <string name="per_down_nine">34%</string>
+    <string name="que_up_ten">Be a famous politician</string>
+    <string name="que_down_ten">A reality TV star</string>
+    <string name="per_up_ten">89%</string>
+    <string name="per_down_ten">11%</string>
+    <string name="helo_world_front">Helo World Front</string>
+    <string name="would_you_rather">Would You Rather?</string>
+    <string name="contained_button">OR</string>
+    <string name="my_details"><b>M Jaswanth</b>\n\n<b>B.Tech., CSE</b>\n\n<b>SRM University AP, Andhra Pradesh</b></string>
+    <string name="instructions">Instructions</string>
+    <string name="insts_intro">This app has two cards that are accessible by the user.\n\n
+        The front side of the cards contains questions, the opposite side of the cards contains a percentage(%).\n\n
+        The data is a static type of data included in the backend program (All questions are stored in the app and retrieved while required.) and not taken from the database.\n\n
+        <b>Note:-</b>\n\n
+        When displaying the percentage you have to wait for <b>2 seconds</b> and then automatically it turns and displays the next question after percentage.\n\n
+        If you turned to landscape the questions again will start over, not used savedState property.
+
+    </string>
+    <string name="insts_red">As shown above, if the chosen percentage is lower, it will be displayed in Red.</string>
+    <string name="insts_green">As shown above, if the chosen percentage is higher, it will be displayed in Green.</string>
+    <string name="insts_end">Hope you like my work... &#128522;</string>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/new_backgrounded">
+
+
+    <TextView
+        android:id="@+id/would_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/would_back"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:text="@string/would_you_rather"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/up_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:id="@+id/up_card"
+        android:layout_width="295dp"
+        android:layout_height="114dp"
+        app:flipType="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/containedButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="80dp">
+
+        <!-- Back Layout Goes Here -->
+        <include
+            layout="@layout/flash_card_layout_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.54" />
+
+        <include
+            layout="@layout/flash_card_layout_front"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <!-- Front Layout Goes Here -->
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:id="@+id/down_card"
+        android:layout_width="295dp"
+        android:layout_height="114dp"
+        app:flipType="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/containedButton"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="80dp">
+
+        <!-- Back Layout Goes Here -->
+        <include
+            layout="@layout/flash_card_layout_back_down"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.54"/>
+
+        <include
+            layout="@layout/flash_card_layout_front_down"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <!-- Front Layout Goes Here -->
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+    <Button
+        android:id="@+id/containedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contained_button"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@drawable/button_back_two"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <Button
+        android:id="@+id/inst_er"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/containedButton"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toEndOf="@+id/up_card"
+        app:layout_constraintTop_toBottomOf="@+id/containedButton"
+        app:layout_constraintVertical_bias="0.738"
+        android:textStyle="bold"
+        android:background="@drawable/button_back_two"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

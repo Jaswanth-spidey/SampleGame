@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instructions">Instructions</string>
+    <string name="insts_intro">This app has two cards that are accessible by the user.\n\n
+        The front side of the cards contains questions, the opposite side of the cards contains a percentage(%).\n\n
+        The data is a static type of data included in the backend program (All questions are stored in the app and retrieved while required.) and not taken from the database.\n
+        \n<b>Note:-</b>\n\n
+        When displaying the percentage you have to wait for <b>2 seconds</b> and then automatically it turns and displays the next question after percentage.\n\n
+        If you turned to landscape the questions again will start over, not used savedState property.
+
+
+    </string>
+    <string name="insts_red">As shown above, if the chosen percentage is lower, it will be displayed in Red.</string>
+    <string name="insts_green">As shown above, if the chosen percentage is higher, it will be displayed in Green.</string>
+    <string name="insts_end">Hope you like my work... &#128522;</string>
+</resources>
